@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/* header styles */
+header{
+    background-image: url(../images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 297px;
+    text-align: center;
+
+}
+
+.header-title{
+    font-weight: 800;
+    font-size: 55px;
+    color: #ffffff;
+    margin-bottom: 35px;
+
+}
+
+.header-description{
+    color: #ffffff;
+    margin-bottom: 35px;
+
+}
+
+.uni-btn{
+    font-weight: 700;
+    font-size: 20px;
+    height: 64px;
+    color: #ffffff;
+    background-color: coral;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+
+}
+.uni-btn:hover{
+    background-color: lightcoral;
+}
