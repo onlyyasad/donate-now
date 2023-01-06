@@ -188,8 +188,9 @@ input::-webkit-inner-spin-button {
 .lives-depend{
     text-align: left;
     margin: 0 297px 200px 297px;
-
-
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .lives-depend-description{
@@ -197,5 +198,6 @@ input::-webkit-inner-spin-button {
 }
 
 .lives-depend-image{
+    float: left;
 
 }
