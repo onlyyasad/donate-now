@@ -32,7 +32,7 @@ header {
     font-size: 20px;
     height: 64px;
     color: #ffffff;
-    background-color: coral;
+    background-color: #ff5050;
     border: 0;
     border-radius: 5px;
     padding: 10px 20px;
@@ -59,7 +59,7 @@ header {
 }
 
 .donate-description {
-
+    color: #727272;
     margin-bottom: 30px;
 
 }
@@ -80,6 +80,14 @@ header {
     font-size: 20px;
     border: 0;
     border-radius: 5px;
+    color: #727272;
+}
+
+.donate-amount:hover{
+    border: 2px solid #ff5050;
+    background-color: rgb(255, 219, 225);
+    color: #ff5050;
+    cursor: pointer;
 }
 
 .otheramount {}
@@ -95,6 +103,9 @@ header {
 
 }
 
+.donate-container input[type=number]:focus{
+    outline: none;
+}
 .donate-container input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
