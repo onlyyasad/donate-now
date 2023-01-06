@@ -5,7 +5,7 @@
 
 /* header styles */
 header {
-    background-image: url(../images/donation6.jpg);
+    background-image: url(../images/donation1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px 297px;
@@ -51,14 +51,20 @@ header {
 
 }
 
-.donate-title, .donate-plan-title, .lives-depend-title {
+.donate-title,
+.donate-plan-title,
+.lives-depend-title,
+.survive-title, .updates-title {
     font-weight: 700;
     font-size: 30px;
     margin-bottom: 20px;
 
 }
 
-.donate-description, .donate-plan-description, .lives-depend-description{
+.donate-description,
+.donate-plan-description,
+.lives-depend-description,
+.survive-description, .updates-description {
     color: #727272;
     margin-bottom: 30px;
 
@@ -83,7 +89,7 @@ header {
     color: #727272;
 }
 
-.donate-amount:hover{
+.donate-amount:hover {
     border: 2px solid #ff5050;
     background-color: rgb(255, 219, 225);
     color: #ff5050;
@@ -106,18 +112,19 @@ header {
 
 }
 
-.donate-container input[type=number]:focus{
+.donate-container input[type=number]:focus {
     outline: none;
 }
+
 .donate-container input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 /* donate plan styles */
 
-.donate-plan-container{
+.donate-plan-container {
     margin: 0px 297px 200px 297px;
     text-align: center;
 }
@@ -125,7 +132,7 @@ input::-webkit-inner-spin-button {
 
 
 
-.donate-plan-options{
+.donate-plan-options {
     display: flex;
     justify-content: space-between;
     text-align: left;
@@ -133,7 +140,7 @@ input::-webkit-inner-spin-button {
 
 }
 
-.donate-option-first{
+.donate-option-first {
     background-color: #e6f4fd;
     border: 0;
     border-radius: 5px;
@@ -141,14 +148,15 @@ input::-webkit-inner-spin-button {
 
 }
 
-.donate-option-second{
+.donate-option-second {
     background-color: #fdf3ee;
     border: 0;
     border-radius: 5px;
     padding: 40px 20px 30px;
 
 }
-.donate-option-third{
+
+.donate-option-third {
     background-color: #fdeeee;
     border: 0;
     border-radius: 5px;
@@ -156,28 +164,29 @@ input::-webkit-inner-spin-button {
 
 }
 
-.food{
-    margin-bottom: 20px;
-
-}
-.shelter{
+.food {
     margin-bottom: 20px;
 
 }
 
-.education{
+.shelter {
     margin-bottom: 20px;
 
 }
 
-.donate-option-title{
+.education {
+    margin-bottom: 20px;
+
+}
+
+.donate-option-title {
     font-weight: 700;
     font-size: 18px;
     margin-bottom: 20px;
 
 }
 
-.donate-option-description{
+.donate-option-description {
     color: #727272;
     font-size: 14px;
 
@@ -185,31 +194,128 @@ input::-webkit-inner-spin-button {
 
 /* lives depend section styles */
 
-.lives-depend{
+.lives-depend,
+.survive {
     text-align: left;
     margin: 0 297px 200px 297px;
-    display:flex;
+    display: flex;
     justify-content: space-between;
     max-width: 100%;
 }
 
-.lives-depend-description{
 
+.lives-depend-image {
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
 }
 
-.lives-depend-image{
-    
-    
-
-}
-.titleandbutton{
-   max-width: 50%;
-   padding-right: 20px;
+.titleandbutton {
+    max-width: 50%;
+    padding-right: 20px;
+    padding-top: 30px;
 }
 
-.onlyimage{
+.onlyimage,
+.onlyimage2 {
     float: left;
     max-width: 50%;
     height: auto;
- 
+    
+
+}
+
+/* They need us to survive section styles */
+
+.survive-image {
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+}
+
+.titleandbutton2 {
+    max-width: 50%;
+    padding-left: 55px;
+    padding-top: 30px;
+
+}
+
+.survive-title {}
+
+.survive-description {}
+
+/* Update Section Styles */
+
+.updates{
+    text-align: center;
+    margin: 0 297px 200px 297px;
+    max-width: 100%;
+
+}
+
+.updates-title{
+
+}
+
+.updates-description{
+
+}
+
+.form{
+    background-color: #fdeded;
+    margin-top: 30px;
+    padding: 50px 100px;
+    border: 0;
+    border-radius: 5px;
+
+}
+
+.updates input[type=submit]{
+    font-weight: 600;
+    font-size: 16px;
+    height: 50px;
+    color: #ffffff;
+    background-color: #ff5050;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 20px;
+}
+.subscribe {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    top: 0;
+    padding: 0 96px;
+  }
+.updates input[type=email]{
+    font-weight: 600;
+    font-size: 16px;
+    height: 50px;
+    color: #252525;
+    background-color: #e2e2e2;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    padding: 0 10px;
+}
+.updates input[type=email]:focus{
+    outline: none;
+}
+
+/* footer area styles */
+
+footer{
+    background-color: #252525;
+
+}
+.footer-area{
+    padding: 75px;
+    text-align: center;
+}
+footer h1{
+    color: #ff5050;
+}
+
+footer p{
+    color: white;
+    margin-top: 30px;
 }
