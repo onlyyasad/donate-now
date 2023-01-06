@@ -28,9 +28,9 @@ header {
 }
 
 .uni-btn {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 20px;
-    height: 64px;
+    height: 50px;
     color: #ffffff;
     background-color: #ff5050;
     border: 0;
@@ -51,14 +51,14 @@ header {
 
 }
 
-.donate-title {
+.donate-title, .donate-plan-title {
     font-weight: 700;
     font-size: 35px;
     margin-bottom: 20px;
 
 }
 
-.donate-description {
+.donate-description, .donate-plan-description{
     color: #727272;
     margin-bottom: 30px;
 
@@ -90,7 +90,10 @@ header {
     cursor: pointer;
 }
 
-.otheramount {}
+.otheramount {
+    font-weight: 600;
+    color: #727272;
+}
 
 .donate-container input[type=number] {
     border: none;
@@ -110,4 +113,89 @@ header {
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+/* donate plan styles */
+
+.donate-plan-container{
+    margin: 0px 297px 200px 297px;
+    text-align: center;
+}
+
+
+
+
+.donate-plan-options{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    gap: 20px;
+
+}
+
+.donate-option-first{
+    background-color: #e6f4fd;
+    border: 0;
+    border-radius: 5px;
+    padding: 40px 20px 30px;
+
+}
+
+.donate-option-second{
+    background-color: #fdf3ee;
+    border: 0;
+    border-radius: 5px;
+    padding: 40px 20px 30px;
+
+}
+.donate-option-third{
+    background-color: #fdeeee;
+    border: 0;
+    border-radius: 5px;
+    padding: 40px 20px 30px;
+
+}
+
+.food{
+    margin-bottom: 20px;
+
+}
+.shelter{
+    margin-bottom: 20px;
+
+}
+
+.education{
+    margin-bottom: 20px;
+
+}
+
+.donate-option-title{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+
+.donate-option-description{
+    color: #727272;
+    font-size: 14px;
+
+}
+
+/* lives depend section styles */
+
+.lives-depend{
+    text-align: left;
+    margin: 0 297px 200px 297px;
+
+
+}
+
+.lives-depend-description{
+
+}
+
+.lives-depend-image{
+
 }
